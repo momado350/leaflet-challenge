@@ -43,7 +43,7 @@ d3.json(platesUrl, function (geoJson) {
         style: function (geoJsonFeature) {
             return {
                 weight: 2,
-                color: 'magenta'
+                color: 'yellow'
             }
         },
     }).addTo(plateBoundary);
